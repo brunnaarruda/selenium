@@ -6,7 +6,6 @@ class BrowserUtils:
         self.browser = None
 
     def open_page(self, browser='chrome', link=None):
-        # open page
         if browser == 'firefox':
             self.browser= webdriver.Firefox()
         elif browser == 'chrome':
